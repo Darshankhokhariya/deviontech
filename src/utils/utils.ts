@@ -13,22 +13,32 @@ export const navItems: NavItem[] = [
   },
   {
     label: "Services",
-    href: "/",
+    href: "/services",
     subItems: [
-      {
-        icon: HiOutlinePaintBrush,
-        label: "UI/UX Design",
-        href: "/ui-ux",
-      },
       {
         icon: FaLaptopCode,
         label: "Web Development",
         href: "/web",
       },
       {
+        icon: HiOutlinePaintBrush,
+        label: "UI/UX Design",
+        href: "/ui-ux",
+      },
+      {
         icon: AiOutlineAndroid,
         label: "App Development",
         href: "/app",
+      },
+      {
+        icon: FaLaptopCode,
+        label: "Software Development",
+        href: "/software",
+      },
+      {
+        icon: HiOutlinePaintBrush,
+        label: "Digital Marketing",
+        href: "/digital-marketing",
       },
     ],
   },
@@ -305,9 +315,9 @@ export const links = {
 };
 
 export const contact = {
-  email: "info.devioninfotech@gmail.com",
-  phoneNumber: "+91 97379 39226",
-  whatsappNumber: "919081133075",
+  email: "deviontech1gmail.com",
+  phoneNumber: "+91 7096002862",
+  whatsappNumber: "917096002862",
   whatsappText:
     "I'd like to get more information about the services you provide.",
   address:
@@ -321,15 +331,35 @@ export const pages = [
     children: [
       {
         title: "Portfolio",
-        url: "/",
+        url: "/portfolio",
       },
       {
-        title: "Technologies",
-        url: "/about-us",
+        title: "Web Development",
+        url: "/web",
       },
       {
-        title: "Services",
-        url: "",
+        title: "App Development",
+        url: "/app",
+      },
+      {
+        title: "Digital Marketing",
+        url: "/digital-marketing",
+      },
+      {
+        title: "Software Development",
+        url: "/software",
+      },
+      {
+        title: "UI/UX Design",
+        url: "/ui-ux",
+      },
+      {
+        title: "About Us",
+        url: "/about",
+      },
+      {
+        title: "Contact Us",
+        url: "/contact",
       },
     ],
   },

@@ -25,7 +25,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         <div>
             <Head>
                 <title>{pageMetadata.title}</title>
-                <link rel="icon" href="/favicon-new.ico" type="image/x-icon" />
+                <link rel="icon" href="/favicon.ico" type="image/x-icon" />
                 <meta name="description" content={pageMetadata.description} />
                 <meta name="keywords" content={pageMetadata.keywords.join(",")} />
             </Head>
