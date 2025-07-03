@@ -117,7 +117,7 @@ const ContactForm = () => {
                 <div className="mb-6">
                     <Button
                         disabled={formState.submitting}
-                        className='bg-primary disabled:bg-primary/50 disabled:cursor-not-allowed uppercase text-sm tracking-normal px-10 py-4 rounded font-bold text-white hover:bg-primary-hover transition-all duration-300'
+                        className='bg-primary disabled:bg-primary/50 disabled:cursor-not-allowed uppercase text-sm tracking-normal px-10 py-4 rounded font-bold text-white hover:bg-primary/80 transition-all duration-300'
                         text={formState.submitting ? "Submitting..." : "Submit"}
                         type="submit"
                     />

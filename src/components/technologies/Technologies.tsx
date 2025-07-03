@@ -15,7 +15,7 @@ const Technologies = () => {
             <div className='mt-20 pb-8'>
                 <div>
                     <div className='text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight text-heading text-center'>
-                        <span className='bg-blue-100 px-2'>Technologies</span>{" "}We Are Work With
+                        <span className='bg-orange-100 px-2'>Technologies</span>{" "}We Are Work With
                     </div>
                 </div>
                 <div className="md:w-1/2 overflow-x-auto scroll-hide lg:w-1/3 mx-auto mt-10 bg-white text-black p-2 flex justify-between items-center gap-3">

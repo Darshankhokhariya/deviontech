@@ -312,17 +312,19 @@ export const portfolio = [
 
 export const links = {
   instagram: "https://www.instagram.com/devion_infotech/",
+  location: "https://maps.app.goo.gl/xar8raFCCMAZB3ww5",
 };
 
 export const contact = {
   email: "deviontech1gmail.com",
-  phoneNumber: "+91 7096002862",
+  phoneNumber1: "+91 97379 39226",
+  phoneNumber: "+91 70960 02862",
+  location: "https://maps.app.goo.gl/xar8raFCCMAZB3ww5",
   whatsappNumber: "917096002862",
   whatsappText:
     "I'd like to get more information about the services you provide.",
   address:
     "C-45, Sumeru City Mall, near Sudama Chowk, Mota Varachha, Surat - 394101",
-  location: "https://maps.app.goo.gl/EASuMqkbhPJStd8r7",
 };
 
 export const pages = [

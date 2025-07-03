@@ -32,13 +32,13 @@ const SoftwareDevelopment = () => {
             <div className="my-20 md:mb-24 text-center max-w-6xl mx-auto">
               <h1 className="mb-16 text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight lg:leading-[50px] xl:leading-[70px] text-heading text-center">
                 <span>Transform Your Ideas with </span>
-                <span className="bg-blue-100 px-2">Software Development</span>
+                <span className="bg-orange-100 px-2">Software Development</span>
               </h1>
               <p className="font-semibold text-lg text-nav tracking-tight">
                 We craft scalable and secure software solutions that empower your business. From planning to deployment, our team delivers high-quality digital products.
               </p>
               <a href="#contact">
-                <Button className='bg-primary cursor-pointer text-sm tracking-normal px-10 py-3 mt-16 rounded font-bold text-white hover:bg-primary-hover transition-all duration-300' text='Get a Quote' />
+                <Button className='bg-primary cursor-pointer text-sm tracking-normal px-10 py-3 mt-16 rounded font-bold text-white hover:bg-primary/80 transition-all duration-300' text='Get a Quote' />
               </a>
             </div>
           </div>
@@ -48,7 +48,7 @@ const SoftwareDevelopment = () => {
       <div className="my-10 md:my-24 bg-white">
         <div className='mt-20 pb-8'>
           <div className='text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight text-heading text-center'>
-            <span className='bg-blue-100 px-2'>Software</span> Development Services
+            <span className='bg-orange-100 px-2'>Software</span> Development Services
           </div>
           <p className='text-sm pt-5 px-3 xl:px-0 text-center text-heading'>
             Our software development services range from custom applications to process automation, helping businesses improve efficiency and scalability.
@@ -62,7 +62,7 @@ const SoftwareDevelopment = () => {
 
         <div className='mt-20 pb-8'>
           <div className='text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight text-heading text-center'>
-            The <span className='bg-blue-100 px-2'>Process</span> we follow
+            The <span className='bg-orange-100 px-2'>Process</span> we follow
           </div>
           <p className='text-sm pt-5 px-3 xl:px-0 text-center text-heading'>
             Our structured development process ensures your software is delivered on time and with high quality—from idea to deployment.
@@ -90,7 +90,7 @@ const SoftwareDevelopment = () => {
 
         <div className='mt-20 pb-8' id='contact'>
           <div className='text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight text-heading text-center'>
-            Have a <span className='bg-blue-100 px-2'>Software Idea</span> in Mind?
+            Have a <span className='bg-orange-100 px-2'>Software Idea</span> in Mind?
           </div>
           <p className='text-lg pt-5 px-3 xl:px-0 font-bold text-center text-heading'>Let’s Build It Together</p>
           <div className='flex justify-center mt-10 relative'>

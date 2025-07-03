@@ -69,7 +69,7 @@ export default function Header() {
                                     onMouseLeave={() => setDropdownOpen(false)}
                                     ref={dropdownRef}
                                 >
-                                    <span className="text-sm font-semibold text-gray-700 group-hover:text-blue-600 transition-all">
+                                    <span className="text-sm font-semibold text-gray-700 group-hover:text-primary transition-all">
                                         {item.label}
                                     </span>
                                     <IoChevronDownOutline className="text-md transition-transform group-hover:rotate-180" />
@@ -78,8 +78,8 @@ export default function Header() {
                             ) : (
                                 <Link
                                     href={item.href}
-                                    className={`text-sm font-semibold ${router.pathname === item.href ? 'text-blue-600' : 'text-gray-700'
-                                        } hover:text-blue-600 transition-all`}
+                                    className={`text-sm font-semibold ${router.pathname === item.href ? 'text-primary' : 'text-gray-700'
+                                        } hover:text-primary transition-all`}
                                 >
                                     {item.label}
                                 </Link>
@@ -94,7 +94,7 @@ export default function Header() {
                 <Logo />
                 <CgMenuRight
                     size={28}
-                    className="cursor-pointer text-gray-800 hover:text-blue-600 transition-colors"
+                    className="cursor-pointer text-gray-800 hover:text-primary transition-colors"
                     onClick={() => setNavCollapse(false)}
                 />
             </nav>
@@ -113,7 +113,7 @@ export default function Header() {
                     <div className="flex justify-end">
                         <CgClose
                             size={24}
-                            className="text-gray-700 cursor-pointer hover:text-blue-600 transition-colors"
+                            className="text-gray-700 cursor-pointer hover:text-primary transition-colors"
                             onClick={() => setNavCollapse(true)}
                         />
                     </div>
@@ -128,7 +128,7 @@ export default function Header() {
                                         >
                                             <span className="text-sm font-bold text-gray-700">{item.label}</span>
                                             <HiOutlineChevronRight
-                                                className={`text-md transition-transform ${dropdownOpen ? 'rotate-90 text-blue-600' : ''
+                                                className={`text-md transition-transform ${dropdownOpen ? 'rotate-90 text-primary' : ''
                                                     }`}
                                             />
                                         </div>
@@ -140,7 +140,7 @@ export default function Header() {
                                                         <Link
                                                             key={idx}
                                                             href={service.href}
-                                                            className="flex items-center gap-2 text-sm text-gray-700 hover:text-blue-600 transition-colors"
+                                                            className="flex items-center gap-2 text-sm text-gray-700 hover:text-primary transition-colors"
                                                             onClick={() => setNavCollapse(true)}
                                                         >
                                                             <Icon className="text-lg" />
@@ -153,8 +153,8 @@ export default function Header() {
                                     </>
                                 ) : (
                                     <span
-                                        className={`block text-sm font-bold cursor-pointer ${router.pathname === item.href ? 'text-blue-600' : 'text-gray-700'
-                                            } hover:text-blue-600 transition-colors`}
+                                        className={`block text-sm font-bold cursor-pointer ${router.pathname === item.href ? 'text-primary' : 'text-gray-700'
+                                            } hover:text-primary transition-colors`}
                                         onClick={() => handleMenuClick(item.href)}
                                     >
                                         {item.label}

@@ -6,7 +6,7 @@ const NumberInput: React.FC<NumberInputProps> = ({ value, onChange }) => {
     return (
         <PhoneInput
             inputStyle={{ width: '100%', height: "48px", outline: 'none' }}
-            inputClass="border outline-none rounded w-full h-12 px-5 text-gray-600 leading-tight focus:outline-none focus:bg-blue-50  transition-all duration-200"
+            inputClass="border outline-none rounded w-full h-12 px-5 text-gray-600 leading-tight focus:outline-none focus:bg-orange-50  transition-all duration-200"
             country={'in'}
             value={value}
             enableAreaCodes={true}
