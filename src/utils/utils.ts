@@ -320,7 +320,7 @@ export const contact = {
   phoneNumber1: "+91 97379 39226",
   phoneNumber: "+91 70960 02862",
   location: "https://maps.app.goo.gl/xar8raFCCMAZB3ww5",
-  whatsappNumber: "917096002862",
+  whatsappNumber: "919737939226",
   whatsappText:
     "I'd like to get more information about the services you provide.",
   address:
