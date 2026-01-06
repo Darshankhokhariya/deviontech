@@ -4,7 +4,7 @@ import { AiOutlineAndroid } from "react-icons/ai";
 import { FaLaptopCode } from "react-icons/fa";
 import { HiOutlinePaintBrush } from "react-icons/hi2";
 
-export const COMPANY_NAME = "devion tech";
+export const COMPANY_NAME = "Devion Tech";
 
 export const navItems: NavItem[] = [
   {
@@ -311,12 +311,12 @@ export const portfolio = [
 ];
 
 export const links = {
-  instagram: "https://www.instagram.com/devion_infotech/",
+  instagram: "https://www.instagram.com/devion.tech/",
   location: "https://maps.app.goo.gl/xar8raFCCMAZB3ww5",
 };
 
 export const contact = {
-  email: "deviontech1gmail.com",
+  email: "deviontech1@gmail.com",
   phoneNumber1: "+91 97379 39226",
   phoneNumber: "+91 70960 02862",
   location: "https://maps.app.goo.gl/xar8raFCCMAZB3ww5",
@@ -370,11 +370,11 @@ export const pages = [
     children: [
       {
         title: "About Us",
-        url: "/",
+        url: "/about",
       },
       {
         title: "Contact Us",
-        url: "/",
+        url: "/contact",
       },
     ],
   },

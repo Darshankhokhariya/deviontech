@@ -7,17 +7,17 @@ import { designProcess } from '@/utils/utils';
 
 const marketingServices = [
   {
-    image: '/icons/marketing/seo.png',
+    image: '/icons/seo.png',
     title: 'SEO Optimization',
     text: 'Improve your website visibility and rank higher on search engines.',
   },
   {
-    image: '/icons/marketing/social-media.png',
+    image: '/icons/social-media.png',
     title: 'Social Media Marketing',
     text: 'Engage your audience across platforms like Instagram, Facebook, and LinkedIn.',
   },
   {
-    image: '/icons/marketing/ppc.png',
+    image: '/icons/adds.png',
     title: 'Paid Advertising',
     text: 'Targeted ads to drive traffic and increase conversions efficiently.',
   },

@@ -7,17 +7,17 @@ import Button from '@/components/buttons/Button';
 
 const softwareServices = [
   {
-    image: '/icons/software/custom-dev.png',
+    image: '/icons/custom-software.png',
     title: 'Custom Software',
     text: 'Tailored software solutions to fit your unique business workflows.',
   },
   {
-    image: '/icons/software/automation.png',
+    image: '/icons/automation.png',
     title: 'Process Automation',
     text: 'Automate repetitive tasks and streamline your business operations.',
   },
   {
-    image: '/icons/software/dashboard.png',
+    image: '/icons/dashboardreport.png',
     title: 'Dashboard & Reporting',
     text: 'Build insightful dashboards and reports to track key metrics.',
   },
