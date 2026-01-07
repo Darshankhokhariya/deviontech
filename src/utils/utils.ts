@@ -308,6 +308,12 @@ export const portfolio = [
     url: "",
     category: "App Development",
   },
+  {
+    title: "Saarthi Cabs",
+    image: "/portfolio/saarthi-cabs.jpg",
+    url: "",
+    category: "App Development",
+  },
 ];
 
 export const links = {
