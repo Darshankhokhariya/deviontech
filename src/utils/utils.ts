@@ -290,6 +290,12 @@ export const portfolio = [
     url: "https://stepmedpharma.vercel.app/",
     category: "Web Development",
   },
+  {
+    title: "Saarthi Cabs",
+    image: "/portfolio/saarthi-cabs-web.png",
+    url: "https://saarthi-frontend-kappa.vercel.app",
+    category: "Web Development",
+  },
   // {
   //   title: "Lakedesk",
   //   image: "/portfolio/lakedesk.png",
