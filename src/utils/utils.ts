@@ -310,7 +310,7 @@ export const portfolio = [
   },
   {
     title: "Saarthi Cabs",
-    image: "/portfolio/saarthi-cabs.jpg",
+    image: "/portfolio/saarthi-cabs.png",
     url: "",
     category: "App Development",
   },
